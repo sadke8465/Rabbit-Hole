@@ -7,237 +7,237 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA000001000000000000001 /* RabbitHoleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001000000000000000 /* RabbitHoleApp.swift */; };
-		AA000002000000000000001 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002000000000000000 /* Node.swift */; };
-		AA000003000000000000001 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000003000000000000000 /* Connection.swift */; };
-		AA000004000000000000001 /* Dive.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000004000000000000000 /* Dive.swift */; };
-		AA000005000000000000001 /* DailySurfaceCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000005000000000000000 /* DailySurfaceCard.swift */; };
-		AA000006000000000000001 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000006000000000000000 /* UserSettings.swift */; };
-		AA000007000000000000001 /* WikipediaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000007000000000000000 /* WikipediaService.swift */; };
-		AA000008000000000000001 /* WikidataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000008000000000000000 /* WikidataService.swift */; };
-		AA000009000000000000001 /* FoundationModelsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000009000000000000000 /* FoundationModelsService.swift */; };
-		AA00000A000000000000001 /* ConnectionScoringService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000A000000000000000 /* ConnectionScoringService.swift */; };
-		AA00000B000000000000001 /* NodeGenerationPipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000B000000000000000 /* NodeGenerationPipeline.swift */; };
-		AA00000C000000000000001 /* DailySurfaceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000C000000000000000 /* DailySurfaceService.swift */; };
-		AA00000D000000000000001 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000D000000000000000 /* HomeViewModel.swift */; };
-		AA00000E000000000000001 /* DiveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000E000000000000000 /* DiveViewModel.swift */; };
-		AA00000F000000000000001 /* GraphViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000F000000000000000 /* GraphViewModel.swift */; };
-		AA000010000000000000001 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000010000000000000000 /* HomeView.swift */; };
-		AA000011000000000000001 /* DailySurfaceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000011000000000000000 /* DailySurfaceCardView.swift */; };
-		AA000012000000000000001 /* NewDiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000012000000000000000 /* NewDiveView.swift */; };
-		AA000013000000000000001 /* DiveRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000013000000000000000 /* DiveRowView.swift */; };
-		AA000014000000000000001 /* DiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000014000000000000000 /* DiveView.swift */; };
-		AA000015000000000000001 /* NodeStoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000015000000000000000 /* NodeStoryView.swift */; };
-		AA000016000000000000001 /* ConnectionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000016000000000000000 /* ConnectionCardView.swift */; };
-		AA000017000000000000001 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000017000000000000000 /* GraphView.swift */; };
-		AA000018000000000000001 /* ShimmerModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000018000000000000000 /* ShimmerModifier.swift */; };
-		AA000019000000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA000019000000000000000 /* Assets.xcassets */; };
-		AA00001A000000000000001 /* SwiftData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA00001A000000000000000 /* SwiftData.framework */; };
-		AA00001B000000000000001 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA00001B000000000000000 /* Foundation.framework */; };
-		AA00001C000000000000001 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA00001C000000000000000 /* SwiftUI.framework */; };
-		AA00001D000000000000001 /* NaturalLanguage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA00001D000000000000000 /* NaturalLanguage.framework */; };
-		AA00001E000000000000001 /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA00001E000000000000000 /* CoreML.framework */; };
-		AA00001F000000000000001 /* FoundationModels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA00001F000000000000000 /* FoundationModels.framework */; };
+		AA0000010000000000000001 /* RabbitHoleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000010000000000000000 /* RabbitHoleApp.swift */; };
+		AA0000020000000000000001 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000020000000000000000 /* Node.swift */; };
+		AA0000030000000000000001 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000030000000000000000 /* Connection.swift */; };
+		AA0000040000000000000001 /* Dive.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000040000000000000000 /* Dive.swift */; };
+		AA0000050000000000000001 /* DailySurfaceCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000050000000000000000 /* DailySurfaceCard.swift */; };
+		AA0000060000000000000001 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000060000000000000000 /* UserSettings.swift */; };
+		AA0000070000000000000001 /* WikipediaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000070000000000000000 /* WikipediaService.swift */; };
+		AA0000080000000000000001 /* WikidataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000080000000000000000 /* WikidataService.swift */; };
+		AA0000090000000000000001 /* FoundationModelsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000090000000000000000 /* FoundationModelsService.swift */; };
+		AA00000A0000000000000001 /* ConnectionScoringService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000A0000000000000000 /* ConnectionScoringService.swift */; };
+		AA00000B0000000000000001 /* NodeGenerationPipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000B0000000000000000 /* NodeGenerationPipeline.swift */; };
+		AA00000C0000000000000001 /* DailySurfaceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000C0000000000000000 /* DailySurfaceService.swift */; };
+		AA00000D0000000000000001 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000D0000000000000000 /* HomeViewModel.swift */; };
+		AA00000E0000000000000001 /* DiveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000E0000000000000000 /* DiveViewModel.swift */; };
+		AA00000F0000000000000001 /* GraphViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000F0000000000000000 /* GraphViewModel.swift */; };
+		AA0000100000000000000001 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000100000000000000000 /* HomeView.swift */; };
+		AA0000110000000000000001 /* DailySurfaceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000110000000000000000 /* DailySurfaceCardView.swift */; };
+		AA0000120000000000000001 /* NewDiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000120000000000000000 /* NewDiveView.swift */; };
+		AA0000130000000000000001 /* DiveRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000130000000000000000 /* DiveRowView.swift */; };
+		AA0000140000000000000001 /* DiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000140000000000000000 /* DiveView.swift */; };
+		AA0000150000000000000001 /* NodeStoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000150000000000000000 /* NodeStoryView.swift */; };
+		AA0000160000000000000001 /* ConnectionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000160000000000000000 /* ConnectionCardView.swift */; };
+		AA0000170000000000000001 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000170000000000000000 /* GraphView.swift */; };
+		AA0000180000000000000001 /* ShimmerModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000180000000000000000 /* ShimmerModifier.swift */; };
+		AA0000190000000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA0000190000000000000000 /* Assets.xcassets */; };
+		AA00001A0000000000000001 /* SwiftData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA00001A0000000000000000 /* SwiftData.framework */; };
+		AA00001B0000000000000001 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA00001B0000000000000000 /* Foundation.framework */; };
+		AA00001C0000000000000001 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA00001C0000000000000000 /* SwiftUI.framework */; };
+		AA00001D0000000000000001 /* NaturalLanguage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA00001D0000000000000000 /* NaturalLanguage.framework */; };
+		AA00001E0000000000000001 /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA00001E0000000000000000 /* CoreML.framework */; };
+		AA00001F0000000000000001 /* FoundationModels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA00001F0000000000000000 /* FoundationModels.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AA000001000000000000000 /* RabbitHoleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabbitHoleApp.swift; sourceTree = "<group>"; };
-		AA000002000000000000000 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
-		AA000003000000000000000 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
-		AA000004000000000000000 /* Dive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dive.swift; sourceTree = "<group>"; };
-		AA000005000000000000000 /* DailySurfaceCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailySurfaceCard.swift; sourceTree = "<group>"; };
-		AA000006000000000000000 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
-		AA000007000000000000000 /* WikipediaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaService.swift; sourceTree = "<group>"; };
-		AA000008000000000000000 /* WikidataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikidataService.swift; sourceTree = "<group>"; };
-		AA000009000000000000000 /* FoundationModelsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationModelsService.swift; sourceTree = "<group>"; };
-		AA00000A000000000000000 /* ConnectionScoringService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionScoringService.swift; sourceTree = "<group>"; };
-		AA00000B000000000000000 /* NodeGenerationPipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeGenerationPipeline.swift; sourceTree = "<group>"; };
-		AA00000C000000000000000 /* DailySurfaceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailySurfaceService.swift; sourceTree = "<group>"; };
-		AA00000D000000000000000 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
-		AA00000E000000000000000 /* DiveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiveViewModel.swift; sourceTree = "<group>"; };
-		AA00000F000000000000000 /* GraphViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewModel.swift; sourceTree = "<group>"; };
-		AA000010000000000000000 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		AA000011000000000000000 /* DailySurfaceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailySurfaceCardView.swift; sourceTree = "<group>"; };
-		AA000012000000000000000 /* NewDiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDiveView.swift; sourceTree = "<group>"; };
-		AA000013000000000000000 /* DiveRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiveRowView.swift; sourceTree = "<group>"; };
-		AA000014000000000000000 /* DiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiveView.swift; sourceTree = "<group>"; };
-		AA000015000000000000000 /* NodeStoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeStoryView.swift; sourceTree = "<group>"; };
-		AA000016000000000000000 /* ConnectionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionCardView.swift; sourceTree = "<group>"; };
-		AA000017000000000000000 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
-		AA000018000000000000000 /* ShimmerModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerModifier.swift; sourceTree = "<group>"; };
-		AA000019000000000000000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AA00001A000000000000000 /* SwiftData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftData.framework; path = System/Library/Frameworks/SwiftData.framework; sourceTree = SDKROOT; };
-		AA00001B000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		AA00001C000000000000000 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		AA00001D000000000000000 /* NaturalLanguage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NaturalLanguage.framework; path = System/Library/Frameworks/NaturalLanguage.framework; sourceTree = SDKROOT; };
-		AA00001E000000000000000 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
-		AA00001F000000000000000 /* FoundationModels.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FoundationModels.framework; path = System/Library/Frameworks/FoundationModels.framework; sourceTree = SDKROOT; };
-		AA000020000000000000000 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AA000021000000000000000 /* RabbitHole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RabbitHole.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0000010000000000000000 /* RabbitHoleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabbitHoleApp.swift; sourceTree = "<group>"; };
+		AA0000020000000000000000 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		AA0000030000000000000000 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		AA0000040000000000000000 /* Dive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dive.swift; sourceTree = "<group>"; };
+		AA0000050000000000000000 /* DailySurfaceCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailySurfaceCard.swift; sourceTree = "<group>"; };
+		AA0000060000000000000000 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		AA0000070000000000000000 /* WikipediaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaService.swift; sourceTree = "<group>"; };
+		AA0000080000000000000000 /* WikidataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikidataService.swift; sourceTree = "<group>"; };
+		AA0000090000000000000000 /* FoundationModelsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationModelsService.swift; sourceTree = "<group>"; };
+		AA00000A0000000000000000 /* ConnectionScoringService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionScoringService.swift; sourceTree = "<group>"; };
+		AA00000B0000000000000000 /* NodeGenerationPipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeGenerationPipeline.swift; sourceTree = "<group>"; };
+		AA00000C0000000000000000 /* DailySurfaceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailySurfaceService.swift; sourceTree = "<group>"; };
+		AA00000D0000000000000000 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		AA00000E0000000000000000 /* DiveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiveViewModel.swift; sourceTree = "<group>"; };
+		AA00000F0000000000000000 /* GraphViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewModel.swift; sourceTree = "<group>"; };
+		AA0000100000000000000000 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AA0000110000000000000000 /* DailySurfaceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailySurfaceCardView.swift; sourceTree = "<group>"; };
+		AA0000120000000000000000 /* NewDiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDiveView.swift; sourceTree = "<group>"; };
+		AA0000130000000000000000 /* DiveRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiveRowView.swift; sourceTree = "<group>"; };
+		AA0000140000000000000000 /* DiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiveView.swift; sourceTree = "<group>"; };
+		AA0000150000000000000000 /* NodeStoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeStoryView.swift; sourceTree = "<group>"; };
+		AA0000160000000000000000 /* ConnectionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionCardView.swift; sourceTree = "<group>"; };
+		AA0000170000000000000000 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		AA0000180000000000000000 /* ShimmerModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerModifier.swift; sourceTree = "<group>"; };
+		AA0000190000000000000000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA00001A0000000000000000 /* SwiftData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftData.framework; path = System/Library/Frameworks/SwiftData.framework; sourceTree = SDKROOT; };
+		AA00001B0000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA00001C0000000000000000 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		AA00001D0000000000000000 /* NaturalLanguage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NaturalLanguage.framework; path = System/Library/Frameworks/NaturalLanguage.framework; sourceTree = SDKROOT; };
+		AA00001E0000000000000000 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
+		AA00001F0000000000000000 /* FoundationModels.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FoundationModels.framework; path = System/Library/Frameworks/FoundationModels.framework; sourceTree = SDKROOT; };
+		AA0000200000000000000000 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA0000210000000000000000 /* RabbitHole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RabbitHole.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AA000030000000000000000 /* Frameworks */ = {
+		AA0000300000000000000000 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA00001A000000000000001 /* SwiftData.framework in Frameworks */,
-				AA00001B000000000000001 /* Foundation.framework in Frameworks */,
-				AA00001C000000000000001 /* SwiftUI.framework in Frameworks */,
-				AA00001D000000000000001 /* NaturalLanguage.framework in Frameworks */,
-				AA00001E000000000000001 /* CoreML.framework in Frameworks */,
-				AA00001F000000000000001 /* FoundationModels.framework in Frameworks */,
+				AA00001A0000000000000001 /* SwiftData.framework in Frameworks */,
+				AA00001B0000000000000001 /* Foundation.framework in Frameworks */,
+				AA00001C0000000000000001 /* SwiftUI.framework in Frameworks */,
+				AA00001D0000000000000001 /* NaturalLanguage.framework in Frameworks */,
+				AA00001E0000000000000001 /* CoreML.framework in Frameworks */,
+				AA00001F0000000000000001 /* FoundationModels.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AA000040000000000000000 /* RabbitHole */ = {
+		AA0000520000000000000000 = {
 			isa = PBXGroup;
 			children = (
-				AA000001000000000000000 /* RabbitHoleApp.swift */,
-				AA000041000000000000000 /* Models */,
-				AA000042000000000000000 /* Services */,
-				AA000043000000000000000 /* ViewModels */,
-				AA000044000000000000000 /* Views */,
-				AA000019000000000000000 /* Assets.xcassets */,
-				AA000045000000000000000 /* Preview Content */,
+				AA0000400000000000000000 /* RabbitHole */,
+				AA0000500000000000000000 /* Frameworks */,
+				AA0000510000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA0000400000000000000000 /* RabbitHole */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000010000000000000000 /* RabbitHoleApp.swift */,
+				AA0000410000000000000000 /* Models */,
+				AA0000420000000000000000 /* Services */,
+				AA0000430000000000000000 /* ViewModels */,
+				AA0000440000000000000000 /* Views */,
+				AA0000190000000000000000 /* Assets.xcassets */,
+				AA0000450000000000000000 /* Preview Content */,
 			);
 			path = RabbitHole;
 			sourceTree = "<group>";
 		};
-		AA000041000000000000000 /* Models */ = {
+		AA0000410000000000000000 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				AA000002000000000000000 /* Node.swift */,
-				AA000003000000000000000 /* Connection.swift */,
-				AA000004000000000000000 /* Dive.swift */,
-				AA000005000000000000000 /* DailySurfaceCard.swift */,
-				AA000006000000000000000 /* UserSettings.swift */,
+				AA0000020000000000000000 /* Node.swift */,
+				AA0000030000000000000000 /* Connection.swift */,
+				AA0000040000000000000000 /* Dive.swift */,
+				AA0000050000000000000000 /* DailySurfaceCard.swift */,
+				AA0000060000000000000000 /* UserSettings.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		AA000042000000000000000 /* Services */ = {
+		AA0000420000000000000000 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				AA000007000000000000000 /* WikipediaService.swift */,
-				AA000008000000000000000 /* WikidataService.swift */,
-				AA000009000000000000000 /* FoundationModelsService.swift */,
-				AA00000A000000000000000 /* ConnectionScoringService.swift */,
-				AA00000B000000000000000 /* NodeGenerationPipeline.swift */,
-				AA00000C000000000000000 /* DailySurfaceService.swift */,
+				AA0000070000000000000000 /* WikipediaService.swift */,
+				AA0000080000000000000000 /* WikidataService.swift */,
+				AA0000090000000000000000 /* FoundationModelsService.swift */,
+				AA00000A0000000000000000 /* ConnectionScoringService.swift */,
+				AA00000B0000000000000000 /* NodeGenerationPipeline.swift */,
+				AA00000C0000000000000000 /* DailySurfaceService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
 		};
-		AA000043000000000000000 /* ViewModels */ = {
+		AA0000430000000000000000 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				AA00000D000000000000000 /* HomeViewModel.swift */,
-				AA00000E000000000000000 /* DiveViewModel.swift */,
-				AA00000F000000000000000 /* GraphViewModel.swift */,
+				AA00000D0000000000000000 /* HomeViewModel.swift */,
+				AA00000E0000000000000000 /* DiveViewModel.swift */,
+				AA00000F0000000000000000 /* GraphViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		AA000044000000000000000 /* Views */ = {
+		AA0000440000000000000000 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				AA000046000000000000000 /* Home */,
-				AA000047000000000000000 /* Dive */,
-				AA000048000000000000000 /* Graph */,
-				AA000049000000000000000 /* Components */,
+				AA0000460000000000000000 /* Home */,
+				AA0000470000000000000000 /* Dive */,
+				AA0000480000000000000000 /* Graph */,
+				AA0000490000000000000000 /* Components */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		AA000046000000000000000 /* Home */ = {
+		AA0000460000000000000000 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				AA000010000000000000000 /* HomeView.swift */,
-				AA000011000000000000000 /* DailySurfaceCardView.swift */,
-				AA000012000000000000000 /* NewDiveView.swift */,
-				AA000013000000000000000 /* DiveRowView.swift */,
+				AA0000100000000000000000 /* HomeView.swift */,
+				AA0000110000000000000000 /* DailySurfaceCardView.swift */,
+				AA0000120000000000000000 /* NewDiveView.swift */,
+				AA0000130000000000000000 /* DiveRowView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
 		};
-		AA000047000000000000000 /* Dive */ = {
+		AA0000470000000000000000 /* Dive */ = {
 			isa = PBXGroup;
 			children = (
-				AA000014000000000000000 /* DiveView.swift */,
-				AA000015000000000000000 /* NodeStoryView.swift */,
-				AA000016000000000000000 /* ConnectionCardView.swift */,
+				AA0000140000000000000000 /* DiveView.swift */,
+				AA0000150000000000000000 /* NodeStoryView.swift */,
+				AA0000160000000000000000 /* ConnectionCardView.swift */,
 			);
 			path = Dive;
 			sourceTree = "<group>";
 		};
-		AA000048000000000000000 /* Graph */ = {
+		AA0000480000000000000000 /* Graph */ = {
 			isa = PBXGroup;
 			children = (
-				AA000017000000000000000 /* GraphView.swift */,
+				AA0000170000000000000000 /* GraphView.swift */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
 		};
-		AA000049000000000000000 /* Components */ = {
+		AA0000490000000000000000 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				AA000018000000000000000 /* ShimmerModifier.swift */,
+				AA0000180000000000000000 /* ShimmerModifier.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
 		};
-		AA000045000000000000000 /* Preview Content */ = {
+		AA0000450000000000000000 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				AA000020000000000000000 /* Preview Assets.xcassets */,
+				AA0000200000000000000000 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		AA000050000000000000000 /* Frameworks */ = {
+		AA0000500000000000000000 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AA00001A000000000000000 /* SwiftData.framework */,
-				AA00001B000000000000000 /* Foundation.framework */,
-				AA00001C000000000000000 /* SwiftUI.framework */,
-				AA00001D000000000000000 /* NaturalLanguage.framework */,
-				AA00001E000000000000000 /* CoreML.framework */,
-				AA00001F000000000000000 /* FoundationModels.framework */,
+				AA00001A0000000000000000 /* SwiftData.framework */,
+				AA00001B0000000000000000 /* Foundation.framework */,
+				AA00001C0000000000000000 /* SwiftUI.framework */,
+				AA00001D0000000000000000 /* NaturalLanguage.framework */,
+				AA00001E0000000000000000 /* CoreML.framework */,
+				AA00001F0000000000000000 /* FoundationModels.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AA000051000000000000000 /* Products */ = {
+		AA0000510000000000000000 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA000021000000000000000 /* RabbitHole.app */,
+				AA0000210000000000000000 /* RabbitHole.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		AA000052000000000000000 = {
-			isa = PBXGroup;
-			children = (
-				AA000040000000000000000 /* RabbitHole */,
-				AA000050000000000000000 /* Frameworks */,
-				AA000051000000000000000 /* Products */,
-			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AA000060000000000000000 /* RabbitHole */ = {
+		AA0000600000000000000000 /* RabbitHole */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA000070000000000000000 /* Build configuration list for PBXNativeTarget "RabbitHole" */;
+			buildConfigurationList = AA0000700000000000000000 /* Build configuration list for PBXNativeTarget "RabbitHole" */;
 			buildPhases = (
-				AA000031000000000000000 /* Sources */,
-				AA000030000000000000000 /* Frameworks */,
-				AA000032000000000000000 /* Resources */,
+				AA0000310000000000000000 /* Sources */,
+				AA0000300000000000000000 /* Frameworks */,
+				AA0000320000000000000000 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -245,25 +245,25 @@
 			);
 			name = RabbitHole;
 			productName = RabbitHole;
-			productReference = AA000021000000000000000 /* RabbitHole.app */;
+			productReference = AA0000210000000000000000 /* RabbitHole.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AA000080000000000000000 /* Project object */ = {
+		AA0000800000000000000000 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					AA000060000000000000000 = {
+					AA0000600000000000000000 = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = AA000071000000000000000 /* Build configuration list for PBXProject "RabbitHole" */;
+			buildConfigurationList = AA0000710000000000000000 /* Build configuration list for PBXProject "RabbitHole" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -271,63 +271,63 @@
 				en,
 				Base,
 			);
-			mainGroup = AA000052000000000000000;
-			productRefGroup = AA000051000000000000000 /* Products */;
+			mainGroup = AA0000520000000000000000;
+			productRefGroup = AA0000510000000000000000 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA000060000000000000000 /* RabbitHole */,
+				AA0000600000000000000000 /* RabbitHole */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AA000032000000000000000 /* Resources */ = {
+		AA0000320000000000000000 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA000019000000000000001 /* Assets.xcassets in Resources */,
+				AA0000190000000000000001 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AA000031000000000000000 /* Sources */ = {
+		AA0000310000000000000000 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA000001000000000000001 /* RabbitHoleApp.swift in Sources */,
-				AA000002000000000000001 /* Node.swift in Sources */,
-				AA000003000000000000001 /* Connection.swift in Sources */,
-				AA000004000000000000001 /* Dive.swift in Sources */,
-				AA000005000000000000001 /* DailySurfaceCard.swift in Sources */,
-				AA000006000000000000001 /* UserSettings.swift in Sources */,
-				AA000007000000000000001 /* WikipediaService.swift in Sources */,
-				AA000008000000000000001 /* WikidataService.swift in Sources */,
-				AA000009000000000000001 /* FoundationModelsService.swift in Sources */,
-				AA00000A000000000000001 /* ConnectionScoringService.swift in Sources */,
-				AA00000B000000000000001 /* NodeGenerationPipeline.swift in Sources */,
-				AA00000C000000000000001 /* DailySurfaceService.swift in Sources */,
-				AA00000D000000000000001 /* HomeViewModel.swift in Sources */,
-				AA00000E000000000000001 /* DiveViewModel.swift in Sources */,
-				AA00000F000000000000001 /* GraphViewModel.swift in Sources */,
-				AA000010000000000000001 /* HomeView.swift in Sources */,
-				AA000011000000000000001 /* DailySurfaceCardView.swift in Sources */,
-				AA000012000000000000001 /* NewDiveView.swift in Sources */,
-				AA000013000000000000001 /* DiveRowView.swift in Sources */,
-				AA000014000000000000001 /* DiveView.swift in Sources */,
-				AA000015000000000000001 /* NodeStoryView.swift in Sources */,
-				AA000016000000000000001 /* ConnectionCardView.swift in Sources */,
-				AA000017000000000000001 /* GraphView.swift in Sources */,
-				AA000018000000000000001 /* ShimmerModifier.swift in Sources */,
+				AA0000010000000000000001 /* RabbitHoleApp.swift in Sources */,
+				AA0000020000000000000001 /* Node.swift in Sources */,
+				AA0000030000000000000001 /* Connection.swift in Sources */,
+				AA0000040000000000000001 /* Dive.swift in Sources */,
+				AA0000050000000000000001 /* DailySurfaceCard.swift in Sources */,
+				AA0000060000000000000001 /* UserSettings.swift in Sources */,
+				AA0000070000000000000001 /* WikipediaService.swift in Sources */,
+				AA0000080000000000000001 /* WikidataService.swift in Sources */,
+				AA0000090000000000000001 /* FoundationModelsService.swift in Sources */,
+				AA00000A0000000000000001 /* ConnectionScoringService.swift in Sources */,
+				AA00000B0000000000000001 /* NodeGenerationPipeline.swift in Sources */,
+				AA00000C0000000000000001 /* DailySurfaceService.swift in Sources */,
+				AA00000D0000000000000001 /* HomeViewModel.swift in Sources */,
+				AA00000E0000000000000001 /* DiveViewModel.swift in Sources */,
+				AA00000F0000000000000001 /* GraphViewModel.swift in Sources */,
+				AA0000100000000000000001 /* HomeView.swift in Sources */,
+				AA0000110000000000000001 /* DailySurfaceCardView.swift in Sources */,
+				AA0000120000000000000001 /* NewDiveView.swift in Sources */,
+				AA0000130000000000000001 /* DiveRowView.swift in Sources */,
+				AA0000140000000000000001 /* DiveView.swift in Sources */,
+				AA0000150000000000000001 /* NodeStoryView.swift in Sources */,
+				AA0000160000000000000001 /* ConnectionCardView.swift in Sources */,
+				AA0000170000000000000001 /* GraphView.swift in Sources */,
+				AA0000180000000000000001 /* ShimmerModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		AA000072000000000000000 /* Debug */ = {
+		AA0000720000000000000000 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -390,7 +390,7 @@
 			};
 			name = Debug;
 		};
-		AA000073000000000000000 /* Release */ = {
+		AA0000730000000000000000 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -446,7 +446,7 @@
 			};
 			name = Release;
 		};
-		AA000074000000000000000 /* Debug */ = {
+		AA0000740000000000000000 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -475,7 +475,7 @@
 			};
 			name = Debug;
 		};
-		AA000075000000000000000 /* Release */ = {
+		AA0000750000000000000000 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -507,20 +507,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA000070000000000000000 /* Build configuration list for PBXNativeTarget "RabbitHole" */ = {
+		AA0000700000000000000000 /* Build configuration list for PBXNativeTarget "RabbitHole" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA000074000000000000000 /* Debug */,
-				AA000075000000000000000 /* Release */,
+				AA0000740000000000000000 /* Debug */,
+				AA0000750000000000000000 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA000071000000000000000 /* Build configuration list for PBXProject "RabbitHole" */ = {
+		AA0000710000000000000000 /* Build configuration list for PBXProject "RabbitHole" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA000072000000000000000 /* Debug */,
-				AA000073000000000000000 /* Release */,
+				AA0000720000000000000000 /* Debug */,
+				AA0000730000000000000000 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -528,5 +528,5 @@
 /* End XCConfigurationList section */
 
 	};
-	rootObject = AA000080000000000000000 /* Project object */;
+	rootObject = AA0000800000000000000000 /* Project object */;
 }

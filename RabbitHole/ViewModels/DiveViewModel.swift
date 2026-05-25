@@ -84,10 +84,12 @@ final class DiveViewModel {
             try modelContext.save()
 
             currentNode = targetNode
+            HapticFeedbackManager.shared.success()
             await prefetchConnectionPool(for: targetNode)
             refreshDisplayedConnections()
         } catch {
             self.error = error.localizedDescription
+            HapticFeedbackManager.shared.error()
         }
     }
 

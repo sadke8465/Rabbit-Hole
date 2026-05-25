@@ -38,6 +38,7 @@
 		AA00001D0000000000000001 /* NaturalLanguage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA00001D0000000000000000 /* NaturalLanguage.framework */; };
 		AA00001E0000000000000001 /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA00001E0000000000000000 /* CoreML.framework */; };
 		AA00001F0000000000000001 /* FoundationModels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA00001F0000000000000000 /* FoundationModels.framework */; };
+		AA0000220000000000000001 /* HapticFeedbackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000220000000000000000 /* HapticFeedbackManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		AA00001D0000000000000000 /* NaturalLanguage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NaturalLanguage.framework; path = System/Library/Frameworks/NaturalLanguage.framework; sourceTree = SDKROOT; };
 		AA00001E0000000000000000 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
 		AA00001F0000000000000000 /* FoundationModels.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FoundationModels.framework; path = System/Library/Frameworks/FoundationModels.framework; sourceTree = SDKROOT; };
+		AA0000220000000000000000 /* HapticFeedbackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedbackManager.swift; sourceTree = "<group>"; };
 		AA0000200000000000000000 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AA0000210000000000000000 /* RabbitHole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RabbitHole.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -137,6 +139,7 @@
 				AA00000A0000000000000000 /* ConnectionScoringService.swift */,
 				AA00000B0000000000000000 /* NodeGenerationPipeline.swift */,
 				AA00000C0000000000000000 /* DailySurfaceService.swift */,
+				AA0000220000000000000000 /* HapticFeedbackManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				AA0000160000000000000001 /* ConnectionCardView.swift in Sources */,
 				AA0000170000000000000001 /* GraphView.swift in Sources */,
 				AA0000180000000000000001 /* ShimmerModifier.swift in Sources */,
+				AA0000220000000000000001 /* HapticFeedbackManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

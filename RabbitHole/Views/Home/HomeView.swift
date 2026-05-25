@@ -109,7 +109,10 @@ struct HomeView: View {
             } else {
                 ForEach(dives) { dive in
                     DiveRowView(dive: dive)
-                        .onTapGesture { activeDive = dive }
+                        .onTapGesture {
+                            HapticFeedbackManager.shared.light()
+                            activeDive = dive
+                        }
                         .padding(.horizontal, 20)
                 }
             }
@@ -154,6 +157,7 @@ struct HomeView: View {
     // MARK: - Actions
 
     private func handleCardTap(_ card: DailySurfaceCard) {
+        HapticFeedbackManager.shared.light()
         card.isTapped = true
         if let diveID = card.relatedDiveID,
            let dive = dives.first(where: { $0.id == diveID }) {

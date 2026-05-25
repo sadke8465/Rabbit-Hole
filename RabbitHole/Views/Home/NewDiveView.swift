@@ -72,6 +72,7 @@ struct NewDiveView: View {
 
     private func resultRow(_ result: WikipediaSearchResult) -> some View {
         Button {
+            HapticFeedbackManager.shared.medium()
             activeDive = ActiveDiveContext(
                 title: result.title,
                 diveName: result.title
@@ -152,6 +153,7 @@ struct DiveStartView: View {
 
     private func start() {
         isStarting = true
+        HapticFeedbackManager.shared.success()
         let dive = Dive(name: diveName, seedNodeID: title)
         modelContext.insert(dive)
         try? modelContext.save()

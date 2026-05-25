@@ -7,7 +7,10 @@ struct ConnectionCardView: View {
     @State private var isPressed = false
 
     var body: some View {
-        Button(action: onTap) {
+        Button(action: {
+            HapticFeedbackManager.shared.light()
+            onTap()
+        }) {
             HStack(alignment: .center, spacing: 14) {
                 // Tier indicator
                 Circle()

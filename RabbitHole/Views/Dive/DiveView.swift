@@ -51,10 +51,20 @@ struct DiveView: View {
     private func diveContent(vm: DiveViewModel) -> some View {
         ScrollView {
             VStack(spacing: 0) {
-                if let node = vm.currentNode {
+                if let errorMessage = vm.error, vm.currentNode == nil {
+                    ContentUnavailableView(
+                        "Couldn't Load Article",
+                        systemImage: "exclamationmark.triangle",
+                        description: Text(errorMessage)
+                    )
+                    .padding(.top, 60)
+                } else if let node = vm.currentNode {
                     NodeStoryView(node: node, isLoading: vm.isLoadingNode)
                         .padding(.horizontal, 20)
                         .padding(.top, 16)
+                } else if vm.isLoadingNode {
+                    ProgressView("Loading article…")
+                        .padding(.top, 60)
                 }
 
                 Divider()

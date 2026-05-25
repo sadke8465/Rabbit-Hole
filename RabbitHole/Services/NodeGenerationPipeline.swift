@@ -42,7 +42,13 @@ final class NodeGenerationPipeline: ObservableObject {
         let article = try await wikipedia.fetchArticle(title: title)
 
         generationProgress = .generatingStory
-        let story = try await llm.generateNodeStory(title: article.title, rawSummary: article.summary)
+        let story: String
+        do {
+            story = try await llm.generateNodeStory(title: article.title, rawSummary: article.summary)
+        } catch {
+            // Foundation Models unavailable or failed — use Wikipedia summary as-is
+            story = article.summary
+        }
 
         let node: Node
         if let existing = fetchNode(id: article.normalizedTitle) {
@@ -69,30 +75,42 @@ final class NodeGenerationPipeline: ObservableObject {
         // Structural candidates from Wikipedia links
         let structuralTitles = Set(article.links.prefix(50))
 
-        // Semantic candidates from Foundation Models
-        let semanticConnections = try await llm.discoverSemanticConnections(
-            sourceTitle: node.title,
-            sourceStory: node.story,
-            candidateTitles: Array(structuralTitles)
-        )
+        // Merge candidates
+        var allCandidates: [(title: String, sentence: String, isStructural: Bool, isCrossDomain: Bool, surpriseScore: Double)] = []
+
+        // Semantic candidates from Foundation Models — fall back to structural links if unavailable
+        do {
+            let semanticConnections = try await llm.discoverSemanticConnections(
+                sourceTitle: node.title,
+                sourceStory: node.story,
+                candidateTitles: Array(structuralTitles)
+            )
+            for sem in semanticConnections {
+                allCandidates.append((
+                    title: sem.targetTitle,
+                    sentence: sem.sentence,
+                    isStructural: structuralTitles.contains(sem.targetTitle),
+                    isCrossDomain: sem.isCrossDomain,
+                    surpriseScore: sem.surpriseScore
+                ))
+            }
+        } catch {
+            // Foundation Models unavailable or failed — use Wikipedia links as structural candidates
+            for title in structuralTitles.prefix(15) {
+                allCandidates.append((
+                    title: title,
+                    sentence: "A topic linked from \(node.title) on Wikipedia.",
+                    isStructural: true,
+                    isCrossDomain: false,
+                    surpriseScore: 0.3
+                ))
+            }
+        }
 
         // Wikidata typed relationships if available (best-effort)
         var wikidataRelationships: [WikidataRelationship] = []
         if let wikidataID = article.wikidataID {
             wikidataRelationships = (try? await wikidata.fetchRelationships(wikidataID: wikidataID)) ?? []
-        }
-
-        // Merge candidates
-        var allCandidates: [(title: String, sentence: String, isStructural: Bool, isCrossDomain: Bool, surpriseScore: Double)] = []
-
-        for sem in semanticConnections {
-            allCandidates.append((
-                title: sem.targetTitle,
-                sentence: sem.sentence,
-                isStructural: structuralTitles.contains(sem.targetTitle),
-                isCrossDomain: sem.isCrossDomain,
-                surpriseScore: sem.surpriseScore
-            ))
         }
 
         // Add any Wikidata relationships not already covered

@@ -25,6 +25,7 @@ struct DiveView: View {
                 ToolbarItem(placement: .primaryAction) {
                     if let vm = viewModel {
                         Button {
+                            HapticFeedbackManager.shared.selection()
                             vm.refreshConnections()
                         } label: {
                             Image(systemName: "shuffle")

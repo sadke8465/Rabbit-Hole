@@ -44,7 +44,7 @@ actor WikipediaService {
     }
 
     func search(query: String) async throws -> [WikipediaSearchResult] {
-        var components = URLComponents(string: "\(baseURL)/page/search/title")!
+        var components = URLComponents(string: "https://api.wikimedia.org/core/v1/wikipedia/en/search/title")!
         components.queryItems = [
             URLQueryItem(name: "q", value: query),
             URLQueryItem(name: "limit", value: "8")

@@ -10,7 +10,6 @@ struct NewDiveView: View {
     @State private var selectedTitle: String?
     @State private var activeDive: ActiveDiveContext?
     private let wikipedia = WikipediaService()
-    private var searchTask: Task<Void, Never>?
 
     struct ActiveDiveContext: Identifiable {
         let id = UUID()
@@ -50,6 +49,25 @@ struct NewDiveView: View {
                 }
             }
         }
+        .task(id: query) {
+            guard !query.isEmpty else {
+                searchResults = []
+                isSearching = false
+                return
+            }
+            isSearching = true
+            do {
+                try await Task.sleep(nanoseconds: 400_000_000)
+                let results = try await wikipedia.search(query: query)
+                searchResults = results
+                isSearching = false
+            } catch is CancellationError {
+                // superseded by a newer query
+            } catch {
+                searchResults = []
+                isSearching = false
+            }
+        }
         .sheet(item: $activeDive) { ctx in
             DiveStartView(title: ctx.title, suggestedName: ctx.diveName, onStart: { _ in
                 dismiss()
@@ -63,7 +81,6 @@ struct NewDiveView: View {
                 .foregroundStyle(.secondary)
             TextField("Any topic…", text: $query)
                 .autocorrectionDisabled()
-                .onChange(of: query) { _, new in performSearch(query: new) }
         }
         .padding(12)
         .background(Color(.secondarySystemBackground))
@@ -93,21 +110,7 @@ struct NewDiveView: View {
         }
     }
 
-    private func performSearch(query: String) {
-        guard !query.isEmpty else {
-            searchResults = []
-            return
-        }
-        isSearching = true
-        Task {
-            try? await Task.sleep(nanoseconds: 400_000_000)
-            let results = (try? await wikipedia.search(query: query)) ?? []
-            await MainActor.run {
-                searchResults = results
-                isSearching = false
-            }
-        }
-    }
+
 }
 
 struct DiveStartView: View {

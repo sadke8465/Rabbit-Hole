@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA000001000000000000001 /* RabbitHoleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001000000000000000 /* RabbitHoleApp.swift */; };
+		AA000002000000000000001 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002000000000000000 /* Node.swift */; };
+		AA000003000000000000001 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000003000000000000000 /* Connection.swift */; };
+		AA000004000000000000001 /* Dive.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000004000000000000000 /* Dive.swift */; };
+		AA000005000000000000001 /* DailySurfaceCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000005000000000000000 /* DailySurfaceCard.swift */; };
+		AA000006000000000000001 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000006000000000000000 /* UserSettings.swift */; };
+		AA000007000000000000001 /* WikipediaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000007000000000000000 /* WikipediaService.swift */; };
+		AA000008000000000000001 /* WikidataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000008000000000000000 /* WikidataService.swift */; };
+		AA000009000000000000001 /* FoundationModelsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000009000000000000000 /* FoundationModelsService.swift */; };
+		AA00000A000000000000001 /* ConnectionScoringService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000A000000000000000 /* ConnectionScoringService.swift */; };
+		AA00000B000000000000001 /* NodeGenerationPipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000B000000000000000 /* NodeGenerationPipeline.swift */; };
+		AA00000C000000000000001 /* DailySurfaceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000C000000000000000 /* DailySurfaceService.swift */; };
+		AA00000D000000000000001 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000D000000000000000 /* HomeViewModel.swift */; };
+		AA00000E000000000000001 /* DiveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000E000000000000000 /* DiveViewModel.swift */; };
+		AA00000F000000000000001 /* GraphViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000F000000000000000 /* GraphViewModel.swift */; };
+		AA000010000000000000001 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000010000000000000000 /* HomeView.swift */; };
+		AA000011000000000000001 /* DailySurfaceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000011000000000000000 /* DailySurfaceCardView.swift */; };
+		AA000012000000000000001 /* NewDiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000012000000000000000 /* NewDiveView.swift */; };
+		AA000013000000000000001 /* DiveRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000013000000000000000 /* DiveRowView.swift */; };
+		AA000014000000000000001 /* DiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000014000000000000000 /* DiveView.swift */; };
+		AA000015000000000000001 /* NodeStoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000015000000000000000 /* NodeStoryView.swift */; };
+		AA000016000000000000001 /* ConnectionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000016000000000000000 /* ConnectionCardView.swift */; };
+		AA000017000000000000001 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000017000000000000000 /* GraphView.swift */; };
+		AA000018000000000000001 /* ShimmerModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000018000000000000000 /* ShimmerModifier.swift */; };
+		AA000019000000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA000019000000000000000 /* Assets.xcassets */; };
+		AA00001A000000000000001 /* SwiftData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA00001A000000000000000 /* SwiftData.framework */; };
+		AA00001B000000000000001 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA00001B000000000000000 /* Foundation.framework */; };
+		AA00001C000000000000001 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA00001C000000000000000 /* SwiftUI.framework */; };
+		AA00001D000000000000001 /* NaturalLanguage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA00001D000000000000000 /* NaturalLanguage.framework */; };
+		AA00001E000000000000001 /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA00001E000000000000000 /* CoreML.framework */; };
+		AA00001F000000000000001 /* FoundationModels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA00001F000000000000000 /* FoundationModels.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA000001000000000000000 /* RabbitHoleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabbitHoleApp.swift; sourceTree = "<group>"; };
+		AA000002000000000000000 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		AA000003000000000000000 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		AA000004000000000000000 /* Dive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dive.swift; sourceTree = "<group>"; };
+		AA000005000000000000000 /* DailySurfaceCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailySurfaceCard.swift; sourceTree = "<group>"; };
+		AA000006000000000000000 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		AA000007000000000000000 /* WikipediaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaService.swift; sourceTree = "<group>"; };
+		AA000008000000000000000 /* WikidataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikidataService.swift; sourceTree = "<group>"; };
+		AA000009000000000000000 /* FoundationModelsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationModelsService.swift; sourceTree = "<group>"; };
+		AA00000A000000000000000 /* ConnectionScoringService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionScoringService.swift; sourceTree = "<group>"; };
+		AA00000B000000000000000 /* NodeGenerationPipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeGenerationPipeline.swift; sourceTree = "<group>"; };
+		AA00000C000000000000000 /* DailySurfaceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailySurfaceService.swift; sourceTree = "<group>"; };
+		AA00000D000000000000000 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		AA00000E000000000000000 /* DiveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiveViewModel.swift; sourceTree = "<group>"; };
+		AA00000F000000000000000 /* GraphViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewModel.swift; sourceTree = "<group>"; };
+		AA000010000000000000000 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AA000011000000000000000 /* DailySurfaceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailySurfaceCardView.swift; sourceTree = "<group>"; };
+		AA000012000000000000000 /* NewDiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDiveView.swift; sourceTree = "<group>"; };
+		AA000013000000000000000 /* DiveRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiveRowView.swift; sourceTree = "<group>"; };
+		AA000014000000000000000 /* DiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiveView.swift; sourceTree = "<group>"; };
+		AA000015000000000000000 /* NodeStoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeStoryView.swift; sourceTree = "<group>"; };
+		AA000016000000000000000 /* ConnectionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionCardView.swift; sourceTree = "<group>"; };
+		AA000017000000000000000 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		AA000018000000000000000 /* ShimmerModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerModifier.swift; sourceTree = "<group>"; };
+		AA000019000000000000000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA00001A000000000000000 /* SwiftData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftData.framework; path = System/Library/Frameworks/SwiftData.framework; sourceTree = SDKROOT; };
+		AA00001B000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA00001C000000000000000 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		AA00001D000000000000000 /* NaturalLanguage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NaturalLanguage.framework; path = System/Library/Frameworks/NaturalLanguage.framework; sourceTree = SDKROOT; };
+		AA00001E000000000000000 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
+		AA00001F000000000000000 /* FoundationModels.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FoundationModels.framework; path = System/Library/Frameworks/FoundationModels.framework; sourceTree = SDKROOT; };
+		AA000020000000000000000 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA000021000000000000000 /* RabbitHole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RabbitHole.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA000030000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA00001A000000000000001 /* SwiftData.framework in Frameworks */,
+				AA00001B000000000000001 /* Foundation.framework in Frameworks */,
+				AA00001C000000000000001 /* SwiftUI.framework in Frameworks */,
+				AA00001D000000000000001 /* NaturalLanguage.framework in Frameworks */,
+				AA00001E000000000000001 /* CoreML.framework in Frameworks */,
+				AA00001F000000000000001 /* FoundationModels.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA000040000000000000000 /* RabbitHole */ = {
+			isa = PBXGroup;
+			children = (
+				AA000001000000000000000 /* RabbitHoleApp.swift */,
+				AA000041000000000000000 /* Models */,
+				AA000042000000000000000 /* Services */,
+				AA000043000000000000000 /* ViewModels */,
+				AA000044000000000000000 /* Views */,
+				AA000019000000000000000 /* Assets.xcassets */,
+				AA000045000000000000000 /* Preview Content */,
+			);
+			path = RabbitHole;
+			sourceTree = "<group>";
+		};
+		AA000041000000000000000 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA000002000000000000000 /* Node.swift */,
+				AA000003000000000000000 /* Connection.swift */,
+				AA000004000000000000000 /* Dive.swift */,
+				AA000005000000000000000 /* DailySurfaceCard.swift */,
+				AA000006000000000000000 /* UserSettings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA000042000000000000000 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AA000007000000000000000 /* WikipediaService.swift */,
+				AA000008000000000000000 /* WikidataService.swift */,
+				AA000009000000000000000 /* FoundationModelsService.swift */,
+				AA00000A000000000000000 /* ConnectionScoringService.swift */,
+				AA00000B000000000000000 /* NodeGenerationPipeline.swift */,
+				AA00000C000000000000000 /* DailySurfaceService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AA000043000000000000000 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AA00000D000000000000000 /* HomeViewModel.swift */,
+				AA00000E000000000000000 /* DiveViewModel.swift */,
+				AA00000F000000000000000 /* GraphViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AA000044000000000000000 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA000046000000000000000 /* Home */,
+				AA000047000000000000000 /* Dive */,
+				AA000048000000000000000 /* Graph */,
+				AA000049000000000000000 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA000046000000000000000 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AA000010000000000000000 /* HomeView.swift */,
+				AA000011000000000000000 /* DailySurfaceCardView.swift */,
+				AA000012000000000000000 /* NewDiveView.swift */,
+				AA000013000000000000000 /* DiveRowView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AA000047000000000000000 /* Dive */ = {
+			isa = PBXGroup;
+			children = (
+				AA000014000000000000000 /* DiveView.swift */,
+				AA000015000000000000000 /* NodeStoryView.swift */,
+				AA000016000000000000000 /* ConnectionCardView.swift */,
+			);
+			path = Dive;
+			sourceTree = "<group>";
+		};
+		AA000048000000000000000 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				AA000017000000000000000 /* GraphView.swift */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		AA000049000000000000000 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AA000018000000000000000 /* ShimmerModifier.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AA000045000000000000000 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AA000020000000000000000 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA000050000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA00001A000000000000000 /* SwiftData.framework */,
+				AA00001B000000000000000 /* Foundation.framework */,
+				AA00001C000000000000000 /* SwiftUI.framework */,
+				AA00001D000000000000000 /* NaturalLanguage.framework */,
+				AA00001E000000000000000 /* CoreML.framework */,
+				AA00001F000000000000000 /* FoundationModels.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA000051000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA000021000000000000000 /* RabbitHole.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA000052000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				AA000040000000000000000 /* RabbitHole */,
+				AA000050000000000000000 /* Frameworks */,
+				AA000051000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA000060000000000000000 /* RabbitHole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA000070000000000000000 /* Build configuration list for PBXNativeTarget "RabbitHole" */;
+			buildPhases = (
+				AA000031000000000000000 /* Sources */,
+				AA000030000000000000000 /* Frameworks */,
+				AA000032000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RabbitHole;
+			productName = RabbitHole;
+			productReference = AA000021000000000000000 /* RabbitHole.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA000080000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					AA000060000000000000000 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = AA000071000000000000000 /* Build configuration list for PBXProject "RabbitHole" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA000052000000000000000;
+			productRefGroup = AA000051000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA000060000000000000000 /* RabbitHole */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA000032000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000019000000000000001 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA000031000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000001000000000000001 /* RabbitHoleApp.swift in Sources */,
+				AA000002000000000000001 /* Node.swift in Sources */,
+				AA000003000000000000001 /* Connection.swift in Sources */,
+				AA000004000000000000001 /* Dive.swift in Sources */,
+				AA000005000000000000001 /* DailySurfaceCard.swift in Sources */,
+				AA000006000000000000001 /* UserSettings.swift in Sources */,
+				AA000007000000000000001 /* WikipediaService.swift in Sources */,
+				AA000008000000000000001 /* WikidataService.swift in Sources */,
+				AA000009000000000000001 /* FoundationModelsService.swift in Sources */,
+				AA00000A000000000000001 /* ConnectionScoringService.swift in Sources */,
+				AA00000B000000000000001 /* NodeGenerationPipeline.swift in Sources */,
+				AA00000C000000000000001 /* DailySurfaceService.swift in Sources */,
+				AA00000D000000000000001 /* HomeViewModel.swift in Sources */,
+				AA00000E000000000000001 /* DiveViewModel.swift in Sources */,
+				AA00000F000000000000001 /* GraphViewModel.swift in Sources */,
+				AA000010000000000000001 /* HomeView.swift in Sources */,
+				AA000011000000000000001 /* DailySurfaceCardView.swift in Sources */,
+				AA000012000000000000001 /* NewDiveView.swift in Sources */,
+				AA000013000000000000001 /* DiveRowView.swift in Sources */,
+				AA000014000000000000001 /* DiveView.swift in Sources */,
+				AA000015000000000000001 /* NodeStoryView.swift in Sources */,
+				AA000016000000000000001 /* ConnectionCardView.swift in Sources */,
+				AA000017000000000000001 /* GraphView.swift in Sources */,
+				AA000018000000000000001 /* ShimmerModifier.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA000072000000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA000073000000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA000074000000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RabbitHole/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rabbithole.app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA000075000000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RabbitHole/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rabbithole.app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA000070000000000000000 /* Build configuration list for PBXNativeTarget "RabbitHole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA000074000000000000000 /* Debug */,
+				AA000075000000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA000071000000000000000 /* Build configuration list for PBXProject "RabbitHole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA000072000000000000000 /* Debug */,
+				AA000073000000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = AA000080000000000000000 /* Project object */;
+}

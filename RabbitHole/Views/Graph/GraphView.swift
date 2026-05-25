@@ -8,7 +8,7 @@ struct GraphView: View {
     @Query private var dives: [Dive]
     @State private var viewModel = GraphViewModel()
     @State private var selectedNode: Node?
-    @GestureState private var dragOffset: CGSize = .zero
+    @State private var lastDragTranslation: CGSize = .zero
     @State private var pinchScale: CGFloat = 1.0
 
     var body: some View {
@@ -96,10 +96,16 @@ struct GraphView: View {
         .gesture(
             DragGesture()
                 .onChanged { value in
-                    viewModel.offset = CGSize(
-                        width: viewModel.offset.width + value.translation.width - (dragOffset.width),
-                        height: viewModel.offset.height + value.translation.height - (dragOffset.height)
+                    let delta = CGSize(
+                        width: value.translation.width - lastDragTranslation.width,
+                        height: value.translation.height - lastDragTranslation.height
                     )
+                    viewModel.offset.width += delta.width
+                    viewModel.offset.height += delta.height
+                    lastDragTranslation = value.translation
+                }
+                .onEnded { _ in
+                    lastDragTranslation = .zero
                 }
         )
         .gesture(

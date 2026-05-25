@@ -108,8 +108,10 @@ final class GraphViewModel {
             // Update positions
             for i in 0..<nodes.count {
                 let id = nodes[i].id
-                velocities[id]?.dx = ((velocities[id]?.dx ?? 0) + (forces[id]?.dx ?? 0)) * damping
-                velocities[id]?.dy = ((velocities[id]?.dy ?? 0) + (forces[id]?.dy ?? 0)) * damping
+                let newDx = ((velocities[id]?.dx ?? 0) + (forces[id]?.dx ?? 0)) * damping
+                let newDy = ((velocities[id]?.dy ?? 0) + (forces[id]?.dy ?? 0)) * damping
+                velocities[id]?.dx = newDx
+                velocities[id]?.dy = newDy
                 nodes[i].position.x += velocities[id]?.dx ?? 0
                 nodes[i].position.y += velocities[id]?.dy ?? 0
             }

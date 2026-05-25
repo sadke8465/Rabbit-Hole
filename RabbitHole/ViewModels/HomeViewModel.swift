@@ -2,6 +2,7 @@ import Foundation
 import SwiftData
 import Observation
 
+@MainActor
 @Observable
 final class HomeViewModel {
     var dailyCards: [DailySurfaceCard] = []

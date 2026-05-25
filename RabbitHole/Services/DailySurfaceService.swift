@@ -55,8 +55,8 @@ final class DailySurfaceService {
             .filter({ !$0.outgoingConnections.allSatisfy(\.isExplored) })
             .randomElement() else { return nil }
 
-        let weeksAgo = node.lastVisitedAt.map { weeksAgo(from: $0) } ?? 1
-        let headline = "\(weeksAgo == 1 ? "Last week" : "\(weeksAgo) weeks ago") you stopped at \(node.title)"
+        let weeksCount = node.lastVisitedAt.map { weeksAgo(from: $0) } ?? 1
+        let headline = "\(weeksCount == 1 ? "Last week" : "\(weeksCount) weeks ago") you stopped at \(node.title)"
         let card = DailySurfaceCard(
             type: .forgottenThread,
             headline: headline,

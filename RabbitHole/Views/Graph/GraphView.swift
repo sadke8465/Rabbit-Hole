@@ -112,7 +112,7 @@ struct GraphView: View {
                 }
         )
         .onTapGesture { location in
-            handleTap(at: location, canvasSize: CGSize(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height))
+            handleTap(at: location, canvasSize: size)
         }
     }
 
